@@ -1,5 +1,3 @@
-# get-color-of-image
-
 This application calculates the averagaging color of an image.
 
 Usage:
