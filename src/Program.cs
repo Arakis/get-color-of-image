@@ -100,7 +100,7 @@ namespace GetColorOfImage
             var L = hsl.Item3;
 
             Console.WriteLine("RGB => R: {0}, G: {1}, B: {2}", avgColor.R, avgColor.G, avgColor.B);
-            Console.WriteLine("HSL => H: {0}, S: {1}, L: {2}", H, S, L);
+            Console.WriteLine("HSL => H: {0}, S: {1}, L: {2}", Math.Round(H * 360), Math.Round(S * 100), Math.Round(L * 100));
 
             if (showColorDialog)
             {
